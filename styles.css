@@ -11,23 +11,22 @@ img{
     list-style-type: none;
     display:flex;
     padding:0;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 .nav-link  a{
     color: white;
     background-color: blue;
     text-decoration: none;
+    justify-content: center;
 }
 .container{
     display: flex;
     justify-content: center;
-    
 }
 header img{
     display: grid;
     max-width: 348px;
-    min-height:108px;
-    position: relative;
+    min-height:108px; 
 }
 .office{
     display: flex;
