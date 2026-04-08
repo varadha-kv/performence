@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+img{
+    width: 100%;
+}
+.nav-link {
+    list-style-type: none;
+    display:flex;
+    padding:0;
+    justify-content:space-around;
+}
+.nav-link  a{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+header img{
+    display: grid;
+    max-width: 348px;
+    min-height:108px;
+    position: relative;
+}
+.office{
+    display: flex;
+    width: 1920px;
+    height: 483px;
+    padding: 0px;
+    margin: 0px;
+    border-color: 4px solid blue;
+}
+
