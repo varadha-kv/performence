@@ -11,13 +11,13 @@ img{
     list-style-type: none;
     display:flex;
     padding:0;
-    justify-content:space-between;
+    justify-content:space-around ;
 }
-.nav-link  a{
+.header nav a{
+    display: flex;
     color: white;
-    background-color: blue;
     text-decoration: none;
-    justify-content: center;
+    align-content: center;
 }
 .container{
     display: flex;
@@ -28,12 +28,16 @@ header img{
     max-width: 348px;
     min-height:108px; 
 }
-.office{
+#people office{
     display: flex;
     width: 1920px;
     height: 483px;
     padding: 0px;
     margin: 0px;
-    border-color: 4px solid blue;
+    background-color: 4px solid blue;
+}
+nav{
+    background-color:#66B6D4 ;
+    
 }
 
